@@ -87,6 +87,7 @@ CodeGen.prototype.label = require("./label.js");
 CodeGen.prototype.list = require("./list.js");
 CodeGen.prototype.magic = require("./magic.js");
 CodeGen.prototype.method = require("./method.js");
+CodeGen.prototype.name = require("./name.js");
 CodeGen.prototype.namespace = require("./namespace.js");
 CodeGen.prototype.new = require("./new.js");
 CodeGen.prototype.nowdoc = require("./nowdoc.js");
