@@ -3,5 +3,5 @@
 
 module.exports = function (node, indent) {
   var codegen = this.process.bind(this);
-  return 'empty(' + codegen(node.arguments[0], indent) + ')';
+  return 'empty(' + codegen(node.expression, indent) + ')';
 };
